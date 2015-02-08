@@ -10,21 +10,21 @@ body {
 	padding: 10px;
 }
 
-Headings
+h1, h2 {
+	color: #ee3e80;
+}
 
-	color: #ee3e80
+p {
+	color: #665544;
+}
 
-Paragraphs
-	
-	color: #665544
-	
-Strong element
-
+strong {
 	color: green;
+}
 
+em {
+	color:violet;
+}
 
-Em elements
-
-	color: violet;
 	
 --*/
