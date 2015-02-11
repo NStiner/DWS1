@@ -25,6 +25,10 @@ p{
 	font-family: "Times New Roman", Times, serif;
 }
 
+em{
+	color: #000000;
+}
+
 /*--list styles--*/
 
 ul {
