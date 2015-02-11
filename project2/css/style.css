@@ -1,9 +1,6 @@
 h1 {
 	color: #F25D27;
-}
-
-body {
-	background-color: #734A27;
+	font-family: Comis Sans Ms Bold;
 }
 
 h2 {
@@ -14,6 +11,11 @@ h3 {
 	color: #BAAF92;
 }
 
+body {
+	background-color: #734A27;
+}
+
 p{
 	color: #ffffff;
 }
+
