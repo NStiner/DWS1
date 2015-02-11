@@ -9,6 +9,8 @@ h1 {
 h2 {
 	color: #D9A689;
 	background-color: #402E1F;
+	height: 30px;
+	padding: 10px;
 	font-family: "courier", monospace;
 	text-transform: uppercase;
 }
@@ -16,7 +18,8 @@ h2 {
 h3 {
 	color: #BAAF92;
 	background-color: #402E1F;
-	height: 12px;
+	height: 30px;
+	padding: 10px;
 	font-family: "Lucida Console", monospace;
 	text-shadow: #000000;
 }
