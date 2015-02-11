@@ -8,12 +8,14 @@ h1 {
 
 h2 {
 	color: #D9A689;
+	background-color: #402E1F;
 	font-family: "courier", monospace;
 	text-transform: uppercase;
 }
 
 h3 {
 	color: #BAAF92;
+	background-color: #402E1F;
 	font-family: "Lucida Console", monospace;
 	text-shadow: #000000;
 }
