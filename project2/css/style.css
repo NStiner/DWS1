@@ -2,8 +2,12 @@
 /*---main layout---*/
 h1 {
 	color: #F25D27;
+	background-color: #402E1F;
+	height: 30px;
+	padding: 10px;
 	text-decoration: underline;
 	text-align: center;
+	
 }
 
 h2 {
@@ -13,6 +17,7 @@ h2 {
 	padding: 10px;
 	font-family: "courier", monospace;
 	text-transform: uppercase;
+	
 }
 
 h3 {
