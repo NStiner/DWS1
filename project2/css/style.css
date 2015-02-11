@@ -1,7 +1,6 @@
 h1 {
 	color: #F25D27;
 	text-decoration: underline;
-
 }
 
 h2 {
@@ -18,5 +17,6 @@ body {
 
 p{
 	color: #ffffff;
+	font-family: "Times New Roman", Times, serif;
 }
 
