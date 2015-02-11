@@ -22,8 +22,29 @@ p{
 	font-family: "Times New Roman", Times, serif;
 }
 
-/*--link styles--*/
+/*--list styles--*/
+
 ul {
 list-style-type: square;
-list-style-color: ffffff;
+}
+
+
+/*--link styles--*/
+
+a:active {
+	color: ;
+}
+
+a:hover {
+	color: ;
+	text-decoration: underline;
+}
+
+a:link {
+	color: F27D52;
+	text-decoration: none;
+}
+
+a:visited {
+	color: ;
 }
