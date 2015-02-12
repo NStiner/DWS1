@@ -1,12 +1,14 @@
 /*-----------Stylesheet for Project 2-------------*/
 /*---main layout---*/
+
 h1 {
 	color: #F25D27;
 	background-color: #402E1F;
+	font-weight: 900;
 	height: 30px;
 	padding: 10px;
-	text-decoration: underline;
 	text-align: center;
+	text-decoration: underline;
 	border: 2px solid #000000;
 	box-shadow: 6px 6px #000000;
 	
@@ -38,6 +40,7 @@ body {
 p {
 	color: #ffffff;
 	font-family: Times New Roman, Times, serif;
+	font-size: 14px
 	width: 600px;
 	height: 25px;
 	padding: 10px;
@@ -49,9 +52,11 @@ p {
 ul {
 	list-style-type: square;
 	color: #9C937A;
-	
-
+	border-radius: images/appetizers_th.jpg 2px 2px round;
 }
+
+/* wanting to make the menu pictures rounded, maybe more page width -
+	menu links inline elements not block - keep rest of lists block. */
 
 
 /*--link styles--*/
