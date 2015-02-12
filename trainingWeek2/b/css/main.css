@@ -1,0 +1,56 @@
+/*--main css for styling-text.html--*/
+
+/*---Main headings--*/
+h1 {
+	font-family: georgia, times, serif;
+	font-size: 250%;
+	text-shadow: 2px 2px #666666;
+}
+
+h2 {
+	font-family: gill-sans, arial, sans-serif;
+	font-size: 90%;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 150%;
+}
+
+/*--body--*/
+
+p {
+	font-family: arial, verdana, sans-serif;
+}
+
+h, { /*need to add links*/
+	font-weight: normal;
+}
+
+#intro {
+	font-weight: bold;
+}
+
+#credit {
+	font-style: italic
+	text-align: right-align;
+}
+
+p {
+	line-height: 1.4em;
+}
+
+/*--links--*/
+
+a:link {
+	text-decortaion: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+

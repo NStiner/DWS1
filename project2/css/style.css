@@ -31,21 +31,24 @@ h3 {
 	padding: 10px;
 	font-family: Lucida Console, monospace;
 	text-shadow: 2px 2px #000000;
+	font-style: italic;
 }
 
 body {
 	background-color: #734A27;
+	line-height: 1.3em;
 }
 
 p {
 	color: #ffffff;
 	font-family: Times New Roman, Times, serif;
 	font-size: 14px
-	width: 600px;
+	width: 300px;
+	margin: 20px auto;
 	height: 25px;
 	padding: 10px;
-	
 }
+
 
 /*--list styles--*/
 
@@ -68,6 +71,7 @@ a:active {
 a:hover {
 	color: #F25F92;
 	text-decoration: underline;
+	background-color: #eee8ea;
 }
 
 a:link {
@@ -79,7 +83,12 @@ a:visited {
 	color: #F27D52;
 }
 
+/*--image styles--*/
+/*
+a:hover {
+	
+}
 
-
+*/
 
 

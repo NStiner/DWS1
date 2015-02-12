@@ -1,0 +1,34 @@
+/* project2 what i still need to do 
+
+
+
+Styling text:
+font-style
+line-height
+
+
+Add a web based font using:
+<link /> or @font-face -- not working properly
+
+Style your links using the following CSS pseudo-classes:
+a:link -- works
+a:visited -- works
+a:hover -- not working properly 
+a:active -- works
+
+
+Box model:
+margin
+
+Center your page using:
+width
+auto margins
+
+Add rounded corners using:
+border-radius -- not working properly
+
+
+Change the display of elements from their default using:
+display
+
+*/
