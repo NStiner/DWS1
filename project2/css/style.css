@@ -54,16 +54,16 @@ p {
 
 ul {
 	list-style-type: square;
-	color: #9C937A;
+	color: #ffffff;
 }
 
+/*
 #menu-list {
-	border-radius: 4px 4px;
+	border-radius: 10px;
 	box-shadow: 2px 2px #000000;
-	display: inline
+	display: inline;
 }
-
-/* wanting to make the menu pictures rounded, maybe more page width -
+	wanting to make the menu pictures rounded, maybe more page width -
 	menu links inline elements not block - keep rest of lists block. */
 
 
@@ -88,6 +88,17 @@ a:active {
 	color: #F25E57;
 }
 
+
+/*--em and strong element styles--*/
+
+em {
+	color: #9C937A;
+	text-decoration: underline;
+}
+	
+strong {
+	color: #D9A689;
+}
 
 /*--image styles--*/
 /*
