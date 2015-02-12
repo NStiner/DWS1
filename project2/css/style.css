@@ -7,7 +7,7 @@ h1 {
 	padding: 10px;
 	text-decoration: underline;
 	text-align: center;
-	box-shadow: 2px 2px #000000;
+	box-shadow: 6px 6px #000000;
 	
 }
 
@@ -18,7 +18,7 @@ h2 {
 	padding: 10px;
 	font-family: courier, monospace;
 	text-transform: uppercase;
-	box-shadow: 2px 2px #000000;
+	box-shadow: 4px 4px #000000;
 }
 
 h3 {
@@ -28,7 +28,7 @@ h3 {
 	padding: 10px;
 	font-family: Lucida Console, monospace;
 	text-shadow: 2px 2px #000000;
-	box-shadow: 2px 2px #000000;
+	box-shadow: 4px 4px #000000;
 }
 
 body {
