@@ -15,7 +15,7 @@ h2 {
 	background-color: #402E1F;
 	height: 30px;
 	padding: 10px;
-	font-family: "courier", monospace;
+	font-family: courier, monospace;
 	text-transform: uppercase;
 	
 }
@@ -25,8 +25,8 @@ h3 {
 	background-color: #402E1F;
 	height: 30px;
 	padding: 10px;
-	font-family: "Lucida Console", monospace;
-	text-shadow: #000000;
+	font-family: Lucida Console, monospace;
+	text-shadow: 2px 2px #000000;
 }
 
 body {
@@ -35,11 +35,11 @@ body {
 
 p {
 	color: #ffffff;
-	font-family: "Times New Roman", Times, serif;
+	font-family: Times New Roman, Times, serif;
 	width: 600px;
-	height: 2px solid #402E1F;
+	height: 2px;
 	padding: 10px;
-	box-shadow: 4px, 4px, #000000
+	box-shadow: 4px 4px #000000;
 	
 }
 
@@ -54,7 +54,7 @@ color: #9C937A;
 /*--link styles--*/
 
 a:active {
-	color: F25E57;
+	color: #F25E57;
 }
 
 a:hover {
