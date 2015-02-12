@@ -1,17 +1,35 @@
 /*-----------Stylesheet for Project 2-------------*/
-/*---main layout---*/
+
+/*--fonts--*/
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lobster'), local('Lobster-Regular'), url(http://fonts.gstatic.com/s/lobster/v12/NIaFDq6p6eLpSvtV2DTNDQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+
+/*--main layout--*/
+#page {
+	width: auto;
+	border: 2px solid #000000;
+	padding: 20px;
+	margina: 0 auto;
+	
+}
 
 h1 {
 	color: #F25D27;
 	background-color: #402E1F;
 	font-weight: 900;
+	font-family: lobster, helvetta, sans-serif;
+	font-size: 300%;
 	height: 30px;
 	padding: 10px;
+	margin: 20px;
 	text-align: center;
 	text-decoration: underline;
 	border: 2px solid #000000;
 	box-shadow: 6px 6px #000000;
-	
 }
 
 h2 {
@@ -19,6 +37,7 @@ h2 {
 	background-color: #402E1F;
 	height: 30px;
 	padding: 10px;
+	margin: 20px;
 	font-family: courier, monospace;
 	text-transform: uppercase;
 	border: 1px solid #000000;
@@ -27,8 +46,9 @@ h2 {
 
 h3 {
 	color: #BAAF92;
-	height: 30px;
-	padding: 10px;
+	height: 10px;
+	padding: 5px;
+	margin: 23px;
 	font-family: Lucida Console, monospace;
 	text-shadow: 2px 2px #000000;
 	font-style: italic;
@@ -49,24 +69,20 @@ p {
 	padding: 10px;
 }
 
-
 /*--list styles--*/
-
 ul {
 	list-style-type: square;
 	color: #ffffff;
 }
 
 /*
-#menu-list {
-	border-radius: 10px;
-	box-shadow: 2px 2px #000000;
-	display: inline;
+li{
+	display: inline-block;
+	width: 200px;
+	height: 10px;
 }
-	wanting to make the menu pictures rounded, maybe more page width -
-	menu links inline elements not block - keep rest of lists block. */
-
-
+*/
+	
 /*--link styles--*/
 
 a:link {
@@ -99,13 +115,4 @@ em {
 strong {
 	color: #D9A689;
 }
-
-/*--image styles--*/
-/*
-a:hover {
-	
-}
-
-*/
-
 
