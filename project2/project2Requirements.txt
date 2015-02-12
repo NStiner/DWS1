@@ -4,7 +4,6 @@
 
 Styling text:
 font-style
-line-height
 
 
 Add a web based font using:
@@ -13,16 +12,16 @@ Add a web based font using:
 Style your links using the following CSS pseudo-classes:
 a:link -- works
 a:visited -- works
-a:hover -- not working properly 
+a:hover -- not working properly -- no underline or fg color
 a:active -- works
 
 
 Box model:
-margin
+margin -- dont quite understand 
 
 Center your page using:
 width
-auto margins
+auto margins -- dont quite understand
 
 Add rounded corners using:
 border-radius -- not working properly
