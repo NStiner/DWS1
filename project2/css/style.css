@@ -122,11 +122,13 @@ strong {
 
 /*--image styles--*/
 #menu-pic {
-	text-align: center;
-	border-radius: 25px;	
+	text-align: center;	
 }
 
 #birthdaypic {
-	border-radius: 10x;
 	box-shadow: 4px;
+}
+
+img { 
+	border-radius: 5px; 
 }
