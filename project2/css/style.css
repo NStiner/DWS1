@@ -13,7 +13,7 @@
 	width: auto;
 	border: 2px solid #000000;
 	padding: 20px;
-	margina: 0 auto;
+	margin: 0 auto;
 	
 }
 
@@ -64,7 +64,7 @@ p {
 	font-family: Times New Roman, Times, serif;
 	font-size: 14px
 	width: 300px;
-	margin: 20px auto;
+	margin: 20px 10px;
 	height: 25px;
 	padding: 10px;
 }
@@ -75,14 +75,12 @@ ul {
 	color: #ffffff;
 }
 
-/*
-li{
-	display: inline-block;
+#navigation {
+	display: inline;
 	width: 200px;
 	height: 10px;
 }
-*/
-	
+
 /*--link styles--*/
 
 a:link {
