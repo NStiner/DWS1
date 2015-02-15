@@ -132,3 +132,16 @@ strong {
 img { 
 	border-radius: 5px; 
 }
+
+/*--layout styling--*/
+
+#hoursd, #locationd {
+	float: left;
+	width: 450px;
+	margin: 10px;
+	overflow: auto;
+}
+
+#specialoffers {
+	clear: left;
+}
