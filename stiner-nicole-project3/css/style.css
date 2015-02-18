@@ -16,6 +16,41 @@
 	
 }
 
+/*--convert to liquid layout--*/
+#header
+{
+	height: 50px;
+	background-color: #666;
+	margin-bottom: 10px;
+}
+
+#nav
+{
+	float: left;
+	width: 25%;
+	height: 150px;
+	background-color: #999;
+	margin-bottom: 10px;
+}
+
+#content
+{
+	float: left;
+	margin-left: 5%;
+	width: 65%;
+	height: 150px;
+	background-color: #999;
+	margin-bottom: 10px;
+}
+
+#footer
+{
+	clear: both;
+	height: 50px;
+	background-color: #666;
+	margin-bottom: 10px;
+}
+
 h1 {
 	color: #F25D27;
 	background-color: #402E1F;
@@ -61,6 +96,7 @@ h3 {
 
 body {
 	background-color: #734A27;
+	background: linear-gradient (50deg, #000000, #89603e);
 	line-height: 1.3em;
 }
 
@@ -71,7 +107,7 @@ p {
 	font-size: 14px
 	width: 300px;
 	margin: 20px 10px;
-	height: 60px;
+	height: 80px;
 }
 
 
@@ -155,5 +191,7 @@ img {
 #specialoffers {
 	clear: left;
 }
+
+
 
 
