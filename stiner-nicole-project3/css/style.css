@@ -21,11 +21,10 @@
 {
 	height: 50px;
 	background-color: #666;
-	margin-bottom: 62.5%px;
+	margin-bottom: 10px;
 }
 
-#nav
-{
+#nav {
 	float: left;
 	width: 25%;
 	height: 150px;
@@ -33,8 +32,7 @@
 	margin-bottom: 10px;
 }
 
-#content
-{
+#content {
 	float: left;
 	margin-left: 5%;
 	width: 65%;
@@ -43,8 +41,7 @@
 	margin-bottom: 10px;
 }
 
-#footer
-{
+#footer {
 	clear: both;
 	height: 50px;
 	background-color: #666;
@@ -84,7 +81,7 @@ h1 {
 }
 
 h2 {
-	color: #f70e03; 
+	color: #f70e03;
 	background-image: url("../images/utensils.jpg");
 	background-repeat: repeat-x;
 	height: 30px;
@@ -96,6 +93,7 @@ h2 {
 	border: 1px solid #000000;
 	box-shadow: 4px 4px #000000;
 	text-align: center;
+	opacity: .5;
 }
 
 h3 {
@@ -125,7 +123,7 @@ p {
 	font-family: Times New Roman, Times, serif;
 	font-size: 14px;
 	width: 420px;
-	margin: 20px 10px;
+	margin: 23px 10px;
 	height: 90px;
 	text-align: center;
 }
@@ -201,7 +199,7 @@ strong {
 }
 
 #menu-pic figure{
-	margin:10px;
+	margin: 10px;
 }
 
 #menu-pic figure, #menu-pic figure a, #menu-pic figure img, #menu-pic figcaption{
@@ -244,4 +242,7 @@ img {
 
 
 
-
+/*-- I wanted to let you know I had some help from a fellow classmate, Matthew Weaver. He
+	has been in all of my other classes since I started this degree training. He is a great helper
+	and actually asked me to alert you, and let you know that he is open and would like to help
+	any one in this class that needs it, if they cannot get ahold of you. Thanks for the extra time, by the way! --*/
