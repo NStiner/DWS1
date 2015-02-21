@@ -68,7 +68,7 @@ h1 {
 	text-decoration: underline;
 	border: 2px solid #000000;
 	box-shadow: 6px 6px #000000;
-}
+} /* need to fix the icon, would like it to be centered. look at email */
 
 h2 {
 	color: #D9A689;
@@ -81,7 +81,7 @@ h2 {
 	text-transform: uppercase;
 	border: 1px solid #000000;
 	box-shadow: 4px 4px #000000;
-}
+} /* backgorund image to bright for the text, wanting to do contrast, look at the email. */
 
 h3 {
 	background-color: #734a27;
@@ -168,7 +168,7 @@ strong {
 #menu-pic {
 	text-align: center;
 	display: inline;
-}
+} /*error here, look at email. inline is not working properly*/
 
 #birthdaypic {
 	box-shadow: 4px;
