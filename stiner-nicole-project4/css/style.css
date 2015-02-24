@@ -13,6 +13,7 @@
 	width: 90%;
 	padding: 2px;
 	margin: 0 auto;
+	text-align: center;
 }
 
 /*--convert to liquid layout--*/
@@ -121,22 +122,8 @@ p {
 	color: #ffffff;
 	font-family: Times New Roman, Times, serif;
 	font-size: 14px;
-	width: 420px;
 	margin: 23px 10px;
-	height: 90px;
 	text-align: center;
-}
-
-#hoursp {
-	height: 70px;
-}
-
-#locationp {
-	height: 60px;
-}
-
-#seniorsp {
-	height: 20px;
 }
 
 #footer {
@@ -149,7 +136,7 @@ p {
 
 /*--list styles--*/
 ul {
-	list-style-type: square;
+	list-style-type: none;
 	color: #ffffff;
 }
 
@@ -236,6 +223,12 @@ strong {
 
 #birthdaypic {
 	box-shadow: 4px;
+}
+
+#birthdaypic figcaption {
+	color: #ffffff;
+	opacity: .6;
+	padding: 10px;
 }
 
 @media screen and (max-width: 800px){
