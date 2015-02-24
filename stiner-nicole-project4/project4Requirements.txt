@@ -1,0 +1,87 @@
+HTML5 layout
+Add the following HTML5 layout elements:
+<header>
+<nav> <!-- header and nav together, have them in place - code not working. hmmm... -->
+<section> or <article>
+<aside>
+<footer>
+
+
+Tables <!-- thought about adding table to location section - to even up the space. Having 2 states 
+			per side. -->
+Add a table using the following table elements:
+<table>
+<tr>
+<th>
+<td>
+
+
+Incorporate web accessibility techniques by adding the following attribute to each table heading:
+scope <!-- need to add after I get table figured out -->
+
+
+Style your table using the following CSS properties:
+width
+padding
+text-transform or letter-spacing <!-- <th> uppersace, rest none -->
+font-size <!-- same size as now -->
+border <!-- probably 1px - 2 px -->
+text-align <!-- <th> elements to be right aligned, rest to be cenetered -->
+background-color
+border-spacing or border-collapse
+:hover <--same hover style for rest of site -->
+
+
+Forms <!-- use aside code for this. Have them log in. maybe a poll down at the bottom -->
+Add a form using the following form controls:
+Text inputs <!-- email/username, password -or- sign-up info such as name, address, phone, etc -->
+Labels <!-- Login, Register/SignUp
+Textarea <!-- last question for poll -->
+Radio buttons or Checkboxes <!-- part of poll / part of signup -->
+Drop down list <!--part of poll / part of signup -->
+Submit button, Image button, or Button <!-- part of poll / part of signup/login -->
+
+
+Add the following HTML5 form controls:
+Required
+Placeholder
+Email, URL, or Search input
+
+
+Incorporate web accessibility techniques by adding the following element for each form control:
+label
+
+
+Style your form using the following CSS properties:
+padding
+margin
+font-size
+color
+border
+text-align
+background-color or background-image
+:hover
+:focus
+
+
+Float each form title next to its corresponding form control. The following properties should be utilized:
+width
+float
+
+
+Use the following pseudo classes to style form controls:
+:hover <!-- same effects as now -->
+:focus
+
+
+Comments
+Add comments to both your HTML and CSS to help with organization. For example, HTML 
+	comments where divs close ("end content") and CSS comments to split the stylesheet into 
+	different sections ("main styles", "navigation", "layout", etc.).
+	
+	
+Validation
+Make sure both your HTML and CSS are valid using the W3C Validation Services.
+
+
+Fix Errors from project 3:

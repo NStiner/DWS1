@@ -4,15 +4,15 @@
 @font-face {
   font-family: 'Lobster';
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   src: local('Lobster'), local('Lobster-Regular'), url(http://fonts.gstatic.com/s/lobster/v12/NIaFDq6p6eLpSvtV2DTNDQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
 }
 
 /*--main layout--*/
 #main {
-	width: auto;
+	width: 90%;
 	padding: 2px;
-	margin: 10px auto 10px auto;
+	margin: 0 auto;
 }
 
 /*--convert to liquid layout--*/
@@ -52,7 +52,7 @@ h1 {
 	background-color: #402E1F;
 	background-image: url("../images/headerp.png");
 	background-repeat: no-repeat;
-	background-position: left-center;
+	background-position: 50px 0;
 	background-size: 10% 100%;
 	font-weight: 900;
 	font-family: lobster, helvetta, sans-serif;
@@ -139,6 +139,14 @@ p {
 	height: 20px;
 }
 
+#footer {
+	background-color: #734A27;
+	color: #fff;
+	opacity: .2;
+	height: 5px;
+	text-align: right;
+}
+
 /*--list styles--*/
 ul {
 	list-style-type: square;
@@ -147,6 +155,21 @@ ul {
 
 #navigation {
 	list-style: none;
+	margin: 2px 65px;
+	padding: 5px;
+	font-size: 80%;
+	font-family: verdana, georgia, serif;
+	text-align: right;
+}
+
+#navigation li {
+	display: inline;
+	width: 500px;
+	height: 10px;
+}
+
+#subnavigation {
+	list-style: none;
 	margin: 0px;
 	padding: 10px;
 	font-size: 120%;
@@ -154,7 +177,7 @@ ul {
 	text-align: center;	
 }
 
-#navigation li {
+#subnavigation li {
 	display: inline;
 	width: 600px;
 	height: 10px;
@@ -241,7 +264,3 @@ img {
 
 
 
-/*-- I wanted to let you know I had some help from a fellow classmate, Matthew Weaver. He
-	has been in all of my other classes since I started this degree training. He is a great helper
-	and actually asked me to alert you, and let you know that he is open and would like to help
-	any one in this class that needs it, if they cannot get ahold of you. Thanks for the extra time, by the way! --*/
