@@ -1,10 +1,8 @@
 HTML5 layout
 Add the following HTML5 layout elements:
-<header>
-<nav> <!-- header and nav together, have them in place - code not working. hmmm... -->
 <section> or <article>
 <aside>
-<footer>
+
 
 
 Tables <!-- thought about adding table to location section - to even up the space. Having 2 states 
@@ -13,7 +11,7 @@ Add a table using the following table elements:
 <table>
 <tr>
 <th>
-<td>
+<td> 
 
 
 Incorporate web accessibility techniques by adding the following attribute to each table heading:
@@ -32,20 +30,20 @@ border-spacing or border-collapse
 :hover <--same hover style for rest of site -->
 
 
-Forms <!-- use aside code for this. Have them log in. maybe a poll down at the bottom -->
+Forms <!-- use aside code for this. Award rules/gameplay <->maybe a poll down at the bottom -->
 Add a form using the following form controls:
-Text inputs <!-- email/username, password -or- sign-up info such as name, address, phone, etc -->
-Labels <!-- Login, Register/SignUp
-Textarea <!-- last question for poll -->
-Radio buttons or Checkboxes <!-- part of poll / part of signup -->
-Drop down list <!--part of poll / part of signup -->
-Submit button, Image button, or Button <!-- part of poll / part of signup/login -->
+Text inputs 
+Labels 
+Textarea 
+Radio buttons or Checkboxes 
+Drop down list 
+Submit button, Image button, or Button 
 
 
 Add the following HTML5 form controls:
 Required
 Placeholder
-Email, URL, or Search input
+Email, URL, or Search input <!--have all 3, want them to be in same line, need to fix -->
 
 
 Incorporate web accessibility techniques by adding the following element for each form control:

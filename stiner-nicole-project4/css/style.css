@@ -255,5 +255,21 @@ img {
 	clear: left;
 }
 
+/*--input fields--*/
+
+textarea: focus, input:focus {
+	border: 2px solid #900;
+}
+
+#search {
+	/*input: focus; --look for code to make it like the login--*/
+	text-align: center;
+	box-shadow: 2px #000000;
+}
+
+#login {
+	margin: 2px 65px;
+}
+
 
 
