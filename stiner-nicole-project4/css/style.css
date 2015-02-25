@@ -263,8 +263,9 @@ textarea: focus, input:focus {
 
 #search {
 	/*input: focus; --look for code to make it like the login--*/
-	text-align: center;
+	text-align: right;
 	box-shadow: 2px #000000;
+	margin: 2px 65px;
 }
 
 #login {
