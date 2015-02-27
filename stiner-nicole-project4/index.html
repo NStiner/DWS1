@@ -5,19 +5,22 @@
 		<title>Fictional Restaurant - Project 4</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
-	<header>
-	<div id="navigationheader"> <!--<header--> <!--main nav-->
+	
+<!--<header--> <!--main nav-->
+	<body>
+	<div id="containter">
+	<header id="navigationheader">
 		<nav>
 		<ul id="navigation">
-			<li><a href=" ">Home</a></li>
-			<li><a href=" ">Menu</a></li>
-			<li><a href=" ">Order</a></li>
-			<li><a href=" ">About</a></li>
-			<li><a href=" ">Contact</a></li>
+			<li><a href="http://www.example.com/review.php">Home</a></li>
+			<li><a href="http://www.example.com/review.php">Menu</a></li>
+			<li><a href="http://www.example.com/review.php">Order</a></li>
+			<li><a href="http://www.example.com/review.php">About</a></li>
+			<li><a href="http://www.example.com/review.php">Contact</a></li>
 		</ul>
 		</nav>
-	</div>
-<!-- login-->
+	
+<!-- login--> <!--fix the submit to go to example page and the css to work-->
 	<div id="login">
 		<label for="username">Username:</label>
 		<input type="text" name="username"
@@ -27,16 +30,19 @@
 		<input type="password" name="password"
 			required="required" />
 			
-		<input type="submit" value="submit" />
+		<input type="submit" value="Log in" />
 	</div>
 	<div id="search">
+	<form action="http://www.example.com/review.php" method="get">
 		<input type="search" name="search"
 			placeholder="Enter Keyword" />
 			
 		<input type="submit" value="search" />
 	</div>
 	</header>
-	<div id="main"> <!--menu -->
+	
+<!--menu -->
+	<div id="main">
 	<h1 id="top">Delish Dish Restaurant</h1>
 	<ul id="subnavigation">
 			<li> | </li>
@@ -56,69 +62,192 @@
 			and look for a <abbr title="Delish Dish Restaurant">DDR</abbr> near you! Have a question? <a href="emailto:ndstiner@fullsail.edu">contact us!</a>
 	</p>
 	<br>
-	<div id="heading-2"> <!-- menu list - suppose to link to another page, if we get there -->
+
+<!-- menu list - suppose to link to another page, if we get there -->
+	<section id="heading-2">
 	<h2 id="menu">Menu</h2>
-	</div>
-	<div id="menu-pic"> <!--menu images -->
+	</section>
+
+<!--menu images -->
+	<div id="menu-pic">
 		<figure>
 		<a id="app" href="images/appetizers.jpg"><img src="images/appetizers_th.jpg" alt="project4" /></a>
 		<br />
-		<figcaption>Appetizers</figcaption>
+		<figcaption><a href="http://www.example.com/review.php">Appetizers</a></figcaption>
 		</figure>
 		
 		<figure>
 		<a id="break" href="images/breakfast.jpg"><img src="images/breakfast_th.jpg" alt="project4" /></a>
 		<br />
-		<figcaption>Breakfast</figcaption>
+		<figcaption><a href="http://www.example.com/review.php">Breakfast</a></figcaption>
 		</figure>
 		
 		<figure>
 		<a id="sal" href="images/salad.jpg"><img src="images/salad_th.jpg" alt="project4" /></a>
 		<br/>
-		<figcaption>Salads</figcaption>
+		<figcaption><a href="http://www.example.com/review.php">Salads</a></figcaption>
 		</figure>
 		
 		<figure>
 		<a id="lun" href="images/lunch.jpg"><img src="images/lunch_th.jpg" alt="project 4" /></a>
 		<br />
-		<figcaption>Lunch</figcaption>
+		<figcaption><a href="http://www.example.com/review.php">Lunch</a></figcaption>
 		</figure>
 		
 		<figure>
 		<a id="dinr" href="images/burgerfries.jpg"><img src="images/burgerfries_th.jpg" alt="project4" /></a>
 		<br />
-		<figcaption>Dinner</figcaption>
+		<figcaption><a href="http://www.example.com/review.php">Dinner</a></figcaption>
 		</figure>
 		
 		<figure>
 		<a id="des" href="images/dessert.jpg"><img src="images/dessert_th.jpg" alt="project4" /></a>
 		<br />
-		<figcaption>Desserts</figcaption>
+		<figcaption><a href="http://www.example.com/review.php">Desserts</a></figcaption>
 		</figure>
 		
 		<figure>
 		<a id="dri" href="images/drink.jpg"><img src="images/drink_th.jpg" alt="project4" /></a>
 		<br />
-		<figcaption>Drinks</figcaption>
+		<figcaption><a href="http://www.example.com/review.php">Drinks</a></figcaption>
 		</figure>
 	</div>
 	
-	<aside id="asideinfo">
-	<form action=" " method=" ">
-	<!--TextArea comment box-->
-	<p>Have a question for us? Want to tell us how much you love our food? What's your favorite
-	item on our menu? Submit your answers, and be automatically entered into our weekly drawings!</p>
-	<textarea name="comments">
-		Enter your comments here...
-	</textarea> <br />
+<!-- hours, floating section -->
+	<section id="hoursd">
+	<h2 id="hours">Hours</h2>
+	<p id="hoursp">We are open every day of the week! However, we believe Holidays are best
+		spent with our loved ones. Be sure to check our hours around each holiday to ensure
+		that we would be open and available to serve you! Sorry, we are closed for Thanksgiving 
+		and Christmas.</p>
+		<ul>
+			<li><strong>Monday-Thursday:</strong> 8am - 11pm</li>
+			<li><strong>Friday and Saturday:</strong> 8am - 1am</li>
+			<li><strong>Sunday:</strong> 8am - 9pm</li>
+		</ul>
+	</section>
+	
+<!--Right side-->
+<aside>
+	<section id="locationd">
+<!--locations, floating section -->
+	<h2 id="location">Location</h2> 
+	<p id="locationp">We are still a growing company, more locations coming soon! We listen
+		to all of our dear customers, and if you would like a <abbr title="Delish Dish Restaurant">DDR</abbr> 
+		near you, then feel free to contact us! We will get back to you when we are available.
+		Thanks for loving Delish Dish!</p>
+		
+<!--Table-->		
+	<table id="locations">
+			<tr>
+				<th colspan="5">Restaurant Locations</th>
+			</tr>
+			<tr>
+				<th scope="row" rowspan="10">Locations</th>
+				<th scope="col">Indiana</th>
+				<th scope="col">Kentucky</th>
+				<th scope="col">Ohio</th>
+				<th scope="col">Pennsylvania</th>
+			</tr>
+						
+			<tr>
+				<td>Charlestown</td>
+				<td>Albany</td>
+				<td>Akron</td>
+				<td>Arnold</td>
+			</tr>
+						
+			<tr>
+				<td>Chicago</td>
+				<td>Bedford</td>
+				<td>Canton</td>
+				<td>Corry</td>
+			</tr>
+						
+			<tr>
+				<td>Indianapolis</td>
+				<td>Cambridge</td>
+				<td>Cincinnati</td>
+				<td>Erie</td>
+			</tr>
+						
+			<tr>
+				<td>Petersburg</td>
+				<td>Highland Heights</td>
+				<td>Columbus</td>
+				<td>Harrisburg</td>
+			</tr>
+						
+			<tr>
+				<td>Portage</td>
+				<td>Park City</td>
+				<td>Toledo</td>
+				<td>Philadelphia</td>
+			</tr>
+		</table>
+		</section>
+</aside>		
+<!--special offers, non floating-->
+<article>
+	<div id="specialoffers">	
+	<h2 id="specials">specials</h2>
+<!--sub special 1-->
+	<h3 id="collegestudents">College Students</h3> 
+	<p id="collegep">College students, enjoy 25% off your <em>entire purchase</em> anytime you show your 
+		student ID card! Keep in touch, we run monthly contests and hand out great prizes!</p>
+<!--sub special 2-->
+	<h3 id="seniorcitizen">Senior Citizens</h3> 
+	<p id="seniorsp">Seniors, enjoy daily specials such as:</p>
+		<ul>
+			<li><strong>Mondays:</strong> 10% off lunch and dinner items!</li>
+			<li><strong>Tuesdays:</strong> 10% off desserts all day!</li>
+			<li><strong>Wednesdays:</strong> <strong>FREE</strong> coffee during breakfast!</li>
+			<li><strong>Thursdays:</strong> 15% off your entire order!</li>
+			<li><strong>Fridays:</strong> Get a <strong>FREE</strong> dessert when you buy one at regular price!</li>
+			<li><strong>Saturdays:</strong> 50% off your breakfast total!</li>
+			<li><strong>Sundays:</strong> Get a <strong>FREE</strong> meal, when you purchase one at regular price!</li>
+		</ul>
+<!--sub special 3-->
+	<h3 id="birthday">Is it your birthday?</h3>
+	<div id="birthdaypic">
+<!--sub special 3 image-->
+	<figure> 
+		<img src="images/desserts.jpg" alt="project4"
+			width="300"
+			height="150" />
+		<figcaption>Some of our customers favorite desserts!</figcaption>
+	</figure>
+	</div>
+	<p id="birthdayp">Enjoy 10% off <em>your</em> meal, and enjoy a <strong>FREE</strong> dessert on us, your choice!</p>
+	<a href="#top">Top of Page</a>
+	</div>
+</article>
+<!--footer-->	
+	<footer id="footer">
+		<article id="footer2">
+		
+	<form action="http://www.example.com/review.php" method="get">
+	<fieldset id="footers">
+	<legend>Tell Us What You Think!</legend>
+	
+<!--TextArea comment box-->
+	<p id="textlabel">Have a question for us? Want to tell us how much you love our food? What's your favorite
+	item on our menu?<br /> Submit your answers, and be automatically entered into our weekly drawings!</p>
+	<textarea name="comments" rows="5" cols="55" 
+		onfocus="this.value=''; this.onfocus=null;">Enter your comments here...</textarea>
+	<br />
 	<label for="zip">Enter your zip code:</label><!--single line text input-->
-	<input type="text" value="Enter your zip code" id="zip"/>
-	<!--Radio Button-->
+	<input type="text" id="zip"/>
+	<br />
+	
+<!--Radio Button-->
 	<label for="gender">Enter your gender:</label> 
-		<input type="radio" name="gender" value="Male" checked="checked" id="gender"/> Male
-		<input type="radio" name="gender" value="Female" checked="checked" id="gender" /> Female
-	</p>
-	<label for"states">Select your state</label> <!--DropDown Menu-->
+		<input type="radio" name="gender" value="male" checked="checked" id="gender"/> Male
+		<input type="radio" name="gender" value="female" checked="checked" id="gender" /> Female 
+	<br />
+		
+<!--DropDown Menu-->
+	<label for="states">Select your state:</label>
 	<select name="states" id="states">
 		<option value="alabama" selected="selected">Alabama</option>
 		<option value="alaska">Alaska</option>
@@ -172,99 +301,17 @@
 		<option value="wyoming">Wyoming</option>
 		<option value="Other">Other</option>
 	</select>
-	</p>
+	<br />
+	
+<!--Submit button-->
 	<input type="submit" value="Submit">
+	</fieldset>
 	</form>
-	</aside>
-	
-	
-	<div id="hoursd"> <!-- hours, floating section -->
-	<h2 id="hours">Hours</h2>
-	<p id="hoursp">We are open every day of the week! However, we believe Holidays are best
-		spent with our loved ones. Be sure to check our hours around each holiday to ensure
-		that we would be open and available to serve you! Sorry, we are closed for Thanksgiving 
-		and Christmas.</p>
-		<ul>
-			<li><strong>Monday-Thursday:</strong> 8am - 11pm</li>
-			<li><strong>Friday and Saturday:</strong> 8am - 1am</li>
-			<li><strong>Sunday:</strong> 8am - 9pm</li>
-		</ul>
-	</div>
-	<div id="locationd"> <!--locations, floating section -->
-	<h2 id="location">Location</h2> 
-	<p id="locationp">We are still a growing company, more locations coming soon! We listen
-		to all of our dear customers, and if you would like a <abbr title="Delish Dish Restaurant">DDR</abbr> 
-		near you, then feel free to contact us! We will get back to you when we are available.
-		Thanks for loving Delish Dish!</p>
-			<ul>
-			<li><strong>Indiana</strong>
-				<ul>
-					<li>Charlestown</li>
-					<li>Chicago</li>				
-					<li>Indianapolis</li>
-					<li>Petersburg</li>
-					<li>Portage</li>
-				</ul>
-				</li>
-				<li><strong>Kentucky</strong>
-				<ul>
-					<li>Albany</li>
-					<li>Bedford</li>
-					<li>Cambridge</li>
-					<li>highland Heights</li>
-					<li>Park City</li>
-				</ul>
-				</li>
-				<li><strong>Ohio</strong>
-				<ul>
-					<li>Akron</li>
-					<li>Canton</li>
-					<li>Cincinnati</li>
-					<li>Columbus</li>
-					<li>Toledo</li>
-				</ul>
-				</li>
-				<li><strong>Pennsylvania</strong>
-				<ul>
-					<li>Arnold</li>
-					<li>Corry</li>
-					<li>Erie</li>
-					<li>Harrisburg</li>
-					<li>Philadelphia</li>
-				</ul>
-				</li>
-			</ul>
-		</div>
-	<div id="specialoffers"> <!--special offers, non floating-->	
-	<h2 id="specials">specials</h2>
-	<h3 id="collegestudents">College Students</h3> <!--sub special 1-->
-	<p id="collegep">College students, enjoy 25% off your <em>entire purchase</em> anytime you show your 
-		student ID card! Keep in touch, we run monthly contests and hand out great prizes!</p>
-	<h3 id="seniorcitizen">Senior Citizens</h3> <!--sub special 2-->
-	<p id="seniorsp">Seniors, enjoy daily specials such as:</p>
-		<ul>
-			<li><strong>Mondays:</strong> 10% off lunch and dinner items!</li>
-			<li><strong>Tuesdays:</strong> 10% off desserts all day!</li>
-			<li><strong>Wednesdays:</strong> <strong>FREE</strong> coffee during breakfast!</li>
-			<li><strong>Thursdays:</strong> 15% off your entire order!</li>
-			<li><strong>Fridays:</strong> Get a <strong>FREE</strong> dessert when you buy one at regular price!</li>
-			<li><strong>Saturdays:</strong> 50% off your breakfast total!</li>
-			<li><strong>Sundays:</strong> Get a <strong>FREE</strong> meal, when you purchase one at regular price!</li>
-		</ul>
-	<h3 id="birthday">Is it your birthday?</h3> <!--sub special 3-->
-	<div id="birthdaypic">
-	<figure> <!--sub special 3 image-->
-		<img src="images/desserts.jpg" alt="project4"
-			width="300"
-			height="150" />
-		<figcaption>Some of our customers favorite desserts!</figcaption>
-	</figure>
-	</div>
-	<p id="birthdayp">Enjoy 10% off <em>your</em> meal, and enjoy a <strong>FREE</strong> dessert on us, your choice!</p>
-	<a href="#top">Top of Page</a>
-	</div>
-	</div>
-	<footer id="footer">
 		&copy; Nicole Stiner 2015
+	</article>
+	</section>
 	</footer>
-</html> <!--end of page-->
+	</div>
+	</body>
+</html> 
+<!--end of page-->

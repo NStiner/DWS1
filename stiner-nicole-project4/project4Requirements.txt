@@ -5,61 +5,37 @@ Add the following HTML5 layout elements:
 
 
 
-Tables <!-- thought about adding table to location section - to even up the space. Having 2 states 
-			per side. -->
-Add a table using the following table elements:
-<table>
-<tr>
-<th>
-<td> 
 
-
-Incorporate web accessibility techniques by adding the following attribute to each table heading:
-scope <!-- need to add after I get table figured out -->
-
-
-Style your table using the following CSS properties:
-width
-padding
-text-transform or letter-spacing <!-- <th> uppersace, rest none -->
-font-size <!-- same size as now -->
-border <!-- probably 1px - 2 px -->
-text-align <!-- <th> elements to be right aligned, rest to be cenetered -->
-background-color
-border-spacing or border-collapse
-:hover <--same hover style for rest of site -->
-
-
-Forms <!-- use aside code for this. Award rules/gameplay <->maybe a poll down at the bottom -->
+Forms <!-- use aside code for this. Enter comments - background info
 Add a form using the following form controls:
-Text inputs 
-Labels 
-Textarea 
-Radio buttons or Checkboxes 
-Drop down list 
-Submit button, Image button, or Button 
+Text inputs <!--done-->
+Labels <!--done-->
+Textarea <!--done-->
+Radio buttons or Checkboxes -- need to fix labels!
+Drop down list <!--done-->
+Submit button, Image button, or Button <!--done-->
 
 
 Add the following HTML5 form controls:
 Required
 Placeholder
-Email, URL, or Search input <!--have all 3, want them to be in same line, need to fix -->
+Email, URL, or Search input <!--have all 3 at top, need to fix spacing-->
 
 
 Incorporate web accessibility techniques by adding the following element for each form control:
-label
+label <!--partially done...-->
 
 
-Style your form using the following CSS properties:
+Style your form using the following CSS properties: <!--none are working-->
 padding
 margin
 font-size
 color
-border
-text-align
+border <!--done-->
+text-align <!--done-->
 background-color or background-image
 :hover
-:focus
+:focus <!--some are working-->
 
 
 Float each form title next to its corresponding form control. The following properties should be utilized:
@@ -69,7 +45,7 @@ float
 
 Use the following pseudo classes to style form controls:
 :hover <!-- same effects as now -->
-:focus
+:focus <!--partially done..-->
 
 
 Comments
@@ -83,3 +59,9 @@ Make sure both your HTML and CSS are valid using the W3C Validation Services.
 
 
 Fix Errors from project 3:
+
+<form action="http://www.example.com/review.php" method="get">
+^^ link to example web page. -- add to contact us link in first paragraph
+
+I need to go back through to all the links and correct their styles -
+

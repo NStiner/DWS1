@@ -116,6 +116,7 @@ body {
 	background: -webkit-linear-gradient(to top left, #000000, #ef8508);
 	background: linear-gradient(to top left, #000000, #ef8508);
 	line-height: 1.3em;
+	overflow: auto;
 }
 
 p {
@@ -129,10 +130,10 @@ p {
 #footer {
 	background-color: #734A27;
 	color: #fff;
-	opacity: .2;
-	height: 5px;
-	text-align: right;
-}
+	/*opacity: .2;*/
+	height: 7px;
+	text-align: center;
+} 
 
 /*--list styles--*/
 ul {
@@ -261,16 +262,74 @@ textarea: focus, input:focus {
 	border: 2px solid #900;
 }
 
+textarea: hover {
+	border: 2px solid #f25f92;
+}
+
+submit: hover {
+	border: 2px solid #f25f92;
+}
+
+
 #search {
-	/*input: focus; --look for code to make it like the login--*/
+	
 	text-align: right;
 	box-shadow: 2px #000000;
 	margin: 2px 65px;
-}
+} 
 
 #login {
 	margin: 2px 65px;
 }
 
+
+#textlabel {
+	text-align: center;
+}
+
+#submit {
+	color: #000000;
+	background-color: #F25D27;
+	border-radius: 2px;
+	box-shadow: 4px #000000;
+	
+} 
+
+#footer2 {
+	padding: 10px;
+	overflow: auto;
+}
+
+
+form input:hover{
+	border: 2px solid #f25f92;
+}
+
+form input:focus{
+	border: 2px solid #900;
+}
+
+
+/*--table--*/
+
+#locations {
+	background: #734A27;
+	color: #F25D27;
+	border: 2px solid #ffffff;
+	border-spacing: 3px;
+}
+
+#locations th, locations td{
+	text-align:center;
+	font-size: 110%;
+}
+
+#locations tr:nth-child(even){
+	background: #D9A689;
+}
+	
+#locations tr:hover{
+	background: #eee8ea;
+}
 
 
