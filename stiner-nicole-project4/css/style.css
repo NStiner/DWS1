@@ -14,6 +14,7 @@
 	padding: 2px;
 	margin: 0 auto;
 	text-align: center;
+	clear: both;
 }
 
 /*--convert to liquid layout--*/
@@ -222,10 +223,6 @@ strong {
 	font-size: 1.3em;
 }
 
-#birthdaypic {
-	box-shadow: 4px;
-}
-
 #birthdaypic figcaption {
 	color: #ffffff;
 	opacity: .6;
@@ -256,25 +253,23 @@ img {
 	clear: left;
 }
 
+#login, #search {
+	float: left;
+	display: inline-block;
+}
+
 /*--input fields--*/
 
-textarea: focus, input:focus {
+textarea:focus, input:focus {
 	border: 2px solid #900;
 }
 
-textarea: hover {
+textarea:hover, input:hover, submit:hover {
 	border: 2px solid #f25f92;
 }
-
-submit: hover {
-	border: 2px solid #f25f92;
-}
-
 
 #search {
-	
 	text-align: right;
-	box-shadow: 2px #000000;
 	margin: 2px 65px;
 } 
 
@@ -291,7 +286,7 @@ submit: hover {
 	color: #000000;
 	background-color: #F25D27;
 	border-radius: 2px;
-	box-shadow: 4px #000000;
+	box-shadow: 4px 4px #000000;
 	
 } 
 
@@ -309,18 +304,17 @@ form input:focus{
 	border: 2px solid #900;
 }
 
-
 /*--table--*/
 
 #locations {
 	background: #734A27;
 	color: #F25D27;
 	border: 2px solid #ffffff;
-	border-spacing: 3px;
+	border-spacing: 1.5px;
 }
 
 #locations th, locations td{
-	text-align:center;
+	text-align: center;
 	font-size: 110%;
 }
 
