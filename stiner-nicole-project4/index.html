@@ -25,20 +25,20 @@
 	<div id="login">
 		<label for="username">Username:</label>
 		<input type="text" name="username"
-			required="required" />
+			required="required" id="username" />
 			
 		<label for="password">Password:</label>
 		<input type="password" name="password"
-			required="required" />
+			required="required" id="password" />
 			
 		<input type="submit" value="Log in" />
 	</div>
 	</form>
 	<form>
 	<div id="search">
-	<form action="http://www.example.com/review.php" method="get">
 		<input type="search" name="search"
-			placeholder="Enter Keyword" />
+			placeholder="Enter Keyword"
+			required="required" />
 			
 		<input type="submit" value="search" />
 	</div>
@@ -147,7 +147,7 @@
 				<th colspan="5">Restaurant Locations</th>
 			</tr>
 			<tr>
-				<th scope="row" rowspan="10">Locations</th>
+				<th scope="row" rowspan="6">Locations</th>
 				<th scope="col">Indiana</th>
 				<th scope="col">Kentucky</th>
 				<th scope="col">Ohio</th>
@@ -228,7 +228,7 @@
 </article>
 <!--footer-->	
 	<footer id="footer">
-		<article id="footer2">
+		<section id="footer2">
 		
 	<form action="http://www.example.com/review.php" method="get">
 	<fieldset id="footers">
@@ -247,7 +247,7 @@
 <!--Radio Button-->
 	<label for="gender">Enter your gender:</label> 
 		<input type="radio" name="gender" value="male" checked="checked" id="gender"/> Male
-		<input type="radio" name="gender" value="female" checked="checked" id="gender" /> Female 
+		<input type="radio" name="gender" value="female" checked="checked" /> Female 
 	<br />
 		
 <!--DropDown Menu-->
@@ -311,10 +311,10 @@
 	<input type="submit" value="Submit">
 	</fieldset>
 	</form>
-		&copy; Nicole Stiner 2015
-	</article>
 	</section>
+		&copy; Nicole Stiner 2015
 	</footer>
+	</div>
 	</div>
 	</body>
 </html> 
